@@ -2,6 +2,7 @@
 
 - Студент: [Андрей Николаев](https://up.htmlacademy.ru/htmlcss-individual/3/user/2710511).
 - Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
+- Сайт: [Проект](https://andr00id.github.io/2710511-sedona-3/)
 
 ---
 
