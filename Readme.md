@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Андрей Николаев](https://up.htmlacademy.ru/htmlcss-individual/3/user/2710511).
-* Наставник: `Неизвестно`.
+- Студент: [Андрей Николаев](https://up.htmlacademy.ru/htmlcss-individual/3/user/2710511).
+- Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
 
 ---
 
