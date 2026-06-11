@@ -8,8 +8,8 @@
 
   <body>
     <header class="navigation-header">
-      <a class="navigation-logo" href="#">
-        <img src="#" alt="Логотип сайта Седона" />
+      <a class="navigation-logo" href="index.html">
+        <img src="#" alt="Логотип сайта Седона">
       </a>
       <nav class="header-navigation">
         <ul class="header-navigation-list">
@@ -27,14 +27,12 @@
           <li class="header-navigation-item">
             <a class="header-navigation-list-user icon-search">
               <span class="visually-hidden">Поиск</span>
-              <img src="#" alt="Иконка лупы" />
             </a>
           </li>
           <li class="header-navigation-item">
             <a class="header-navigation-list-user icon-favorite">
               <span class="visually-hidden">Избранное</span>
               <span class="favorite-number">12</span>
-              <img src="#" alt="иконка сердечка" />
             </a>
           </li>
           <li class="header-navigation-item">
@@ -48,31 +46,29 @@
     <main class="main-index">
       <section class="hero">
         <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
-        <img class="logo" src="#" alt="Приветствие сайта Седона" />
-      </section>
-      <section class="advantages-bloc">
-        <h2 class="header-bloc">
-          СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
-        </h2>
-        <p class="description-bloc">
-          Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
-        </p>
+        <img class="logo" src="#" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
       </section>
       <section class="advantages">
+        <h2 class="advantages-header">
+          СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
+        </h2>
+        <p class="advantages-description">
+          Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
+        </p>
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
           <li class="advantages-item pictures">
             <div class="advantages-text">
-              <h3>Настоящий <br />городок</h3>
+              <h3>Настоящий <br>городок</h3>
               <p>
                 Седона — не аттракцион для туристов, там течёт своя жизнь
               </p>
             </div>
-            <img class="advantages-img" src="#" alt="Фото города седона" />
+            <img class="advantages-img" src="#" alt="Фото города Седона">
           </li>
           <li class="advantages-item">
             <h3>
-              Небольшая <br />
+              Небольшая <br>
               площадь
             </h3>
             <p>
@@ -81,23 +77,23 @@
           </li>
           <li class="advantages-item light-blue">
             <h3>
-              Красивая <br />
+              Красивая <br>
               дорога
             </h3>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="advantages-item">
             <h3>
-              Мало <br />
+              Мало <br>
               туристов
             </h3>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="advantages-item pictures">
-            <img class="advantages-img" src="#" alt="Фото природы" />
+            <img class="advantages-img" src="#" alt="Природный каменный мост Дьявола в Седоне на фоне красных скал">
             <div class="advantages-text">
               <h3>
-                Там есть <br />
+                Там есть <br>
                 мост дьявола
               </h3>
               <p>
@@ -118,21 +114,18 @@
       <section class="advantages-welcome">
         <ul class="advantages-welcome-list">
           <li class="advantages-welcome-item light-blue">
-            <img src="#" alt="изображение домика" />
             <h3>ЖИЛЬЁ</h3>
             <p>
               Рекомендуем пожить в настоящем мотеле, всё как в кино!
             </p>
           </li>
           <li class="advantages-welcome-item">
-            <img src="#" alt="изображение бургера" />
             <h3>ЕДА</h3>
             <p>
               Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
             </p>
           </li>
           <li class="advantages-welcome-item light-blue">
-            <img src="#" alt="изображение подарка" />
             <h3>СУВЕНИРЫ</h3>
             <p>
               Не только китайского, но и настоящего местного производства!
@@ -143,10 +136,10 @@
       <section class="interested">
         <h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
         <p>
-          Укажите предполагаемые даты поездки,<br />и мы покажем вам лучшие
+          Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие
           предложения гостиниц в Седоне
         </p>
-        <button type="button" class="button-search">
+        <button class="button-search" type="button">
           ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
         </button>
       </section>
@@ -155,8 +148,9 @@
         <p>
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
-        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="">
-          <input type="email" placeholder="Ваш e-mail" required />
+        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="visually-hidden" for="email">Ваш email</label>
+          <input type="email" id="email" name="email" placeholder="Ваш e-mail" required />
           <button class="subscribe-button" type="submit">Подписаться</button>
         </form>
       </section>
@@ -166,27 +160,24 @@
         <li class="social-item">
           <a class="social-link" href="https://vk.com/htmlacademy" title="Vk">
             <span class="visually-hidden">Группа Вконтакте</span>
-            <img src="#" alt="иконка Вконтакте" />
           </a>
         </li>
         <li class="social-item">
           <a class="social-link" href="https://t.me/htmlacademy" title="Telegram">
             <span class="visually-hidden">Канал в Telegram</span>
-            <img src="#" alt="иконка телеграм" />
           </a>
         </li>
         <li class="social-item">
           <a class="social-link" href="https://www.youtube.com/user/htmlacademyru" title="YouTube">
             <span class="visually-hidden">Ютуб канал</span>
-            <img src="#" alt="иконка ютуба" />
           </a>
         </li>
       </ul>
-      <a class="footer-contact-number" href="tel:78128121212">
+      <a class="footer-contact-number" href="tel:+78128121212">
         +7 (812) 812-12-12
       </a>
       <a class="footer-contact-logo" href="https://htmlacademy.ru/intensive/htmlcss">
-        <img src="#" alt="Логотип html academy" />
+        <span class="visually-hidden">Логотип htmlacademy</span>
       </a>
     </footer>
   </body>
