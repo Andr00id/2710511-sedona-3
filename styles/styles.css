@@ -123,15 +123,15 @@ body {
 }
 
 .advantages-item {
-  background-color: #83b3d31f;
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .light-blue {
-  background-color: #83b3d31f;
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .dark-blue {
-  background-color: #83b3d333;
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantages-text {
