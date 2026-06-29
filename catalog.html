@@ -65,20 +65,20 @@
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
-                <ul class="catalog-filter-item">
-                  <li class="catalog-filter-list">
+                <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
                     <label class="control">
                       <input type="checkbox" name="swimming-pool" checked>
                       Бассейн
                     </label>
                   </li>
-                  <li class="catalog-filter-list">
+                  <li class="catalog-filter-item">
                     <label class="control">
                       <input type="checkbox" name="parking" checked>
                       Парковка
                     </label>
                   </li>
-                  <li class="catalog-filter-list">
+                  <li class="catalog-filter-item">
                     <label class="control">
                       <input type="checkbox" name="wifi">
                       Wi-Fi
@@ -111,8 +111,10 @@
               </fieldset>
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-                <input class="field-price" name="min-price" type="number" value="0">
-                <input class="field-price" name="max-price" type="number" value="9000">
+                <div class="inputs-price-container">
+                  <input class="field-price" name="min-price" type="number" value="0">
+                  <input class="field-price" name="max-price" type="number" value="9000">
+                </div>
                 <input class="range-price" type="range">
               </fieldset>
               <div class="catalog-button-container">

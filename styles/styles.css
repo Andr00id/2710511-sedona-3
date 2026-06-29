@@ -61,6 +61,7 @@ body {
 
 .header-navigation {
   display: flex;
+  width: 100%;
 }
 
 .header-navigation-list {
@@ -85,6 +86,31 @@ body {
 .navigation-user {
   margin-left: 285px;
   width: 88px;
+}
+
+.favorite-number {
+  background-color: #7db54f;
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+}
+
+.desired-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  width: 160px;
+  height: 36px;
+  margin-left: auto;
+  text-align: center;
+  align-self: center;
 }
 
 .container {
@@ -115,31 +141,6 @@ body {
   padding-bottom: 82px;
 }
 
-.favorite-number {
-  background-color: #7db54f;
-  font-size: 10px;
-  line-height: 10px;
-  color: #ffffff;
-}
-
-.desired-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 700;
-  font-size: 16px;
-  color: #ffffff;
-  background-color: #756157;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 4px;
-  width: 160px;
-  height: 36px;
-  margin-left: auto;
-  text-align: center;
-  align-self: center;
-}
-
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
@@ -152,8 +153,12 @@ body {
   box-sizing: border-box;
   width: 400px;
   height: 385px;
-  padding: 85px 102px;
+  padding: 112px 85px;
   text-align: center;
+}
+
+.pictures .advantages-text {
+  padding: 102px 85px;
 }
 
 .pictures {
@@ -181,10 +186,6 @@ body {
 .advantages-description {
   text-align: center;
   margin-bottom: 69px;
-}
-
-.social-list {
-  list-style-type: none;
 }
 
 .advantages-welcome {
@@ -334,6 +335,12 @@ body {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   box-sizing: border-box;
+  padding-left: 20px;
+}
+
+.subscribe-form input::placeholder {
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .subscribe-button {
@@ -356,6 +363,10 @@ body {
 .main-footer {
   display: flex;
   background-color: #ffffff;
+}
+
+.social-list {
+  list-style-type: none;
 }
 
 .footer-container {
@@ -384,6 +395,10 @@ body {
   margin: auto;
 }
 
+.main-catalog {
+  background-color: #ffffff;
+}
+
 .catalog-filter-bloc {
   background-color: #000000;
   color: #ffffff;
@@ -392,19 +407,51 @@ body {
   padding-bottom: 73px;
 }
 
+.catalog-filter-bloc h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
+}
+
 .breadcrumbs-list {
   list-style-type: none;
   margin: 0;
+  margin-bottom: 40px;
   padding: 0;
   display: flex;
 }
 
-.main-catalog {
-  background-color: #ffffff;
+.breadcrumbs-link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .catalog-filter {
   display: flex;
+}
+
+.catalog-filter-group {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inputs-price-container {
+  display: flex;
+  width: 143px;
+  height: 48px;
+  margin-top: 32px;
+  margin-bottom: 36px;
+}
+
+.inputs-price-container input {
+  border: none;
+  border-radius: 4px;
 }
 
 .catalog-filter-group:nth-child(1) {
@@ -428,21 +475,6 @@ body {
   margin-top: 56px;
 }
 
-.catalog-filter-bloc h1 {
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 78px;
-  margin: 0;
-  padding: 0;
-}
-
-.breadcrumbs-link {
-  color: inherit;
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 21px;
-}
-
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
@@ -450,9 +482,15 @@ body {
 }
 
 .catalog-filter-list {
+  padding: 0;
+}
+
+.catalog-filter-item {
   list-style-type: none;
   font-size: 18px;
   line-height: 23px;
+  padding: 0;
+  margin-bottom: 15px;
 }
 
 .field-price {
@@ -509,8 +547,6 @@ body {
   margin: 56px 70px 48px 200px;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
-  padding-top: 14px;
-  padding-bottom: 14px;
   padding-left: 20px;
 }
 
@@ -536,12 +572,13 @@ body {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  gap: 20px;
 }
 
 .hotels-catalog-item {
   display: flex;
   flex-direction: column;
-  min-width: 340px;
+  width: 340px;
   min-height: 438px;
   padding: 20px;
   box-sizing: border-box;
